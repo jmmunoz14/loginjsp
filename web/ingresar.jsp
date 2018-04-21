@@ -175,9 +175,9 @@ input[type=submit]:hover {
 <body>
 
 <nav class="w3-bar w3-black">
-  <a href="index.html" class="w3-button w3-bar-item">Inicio</a>
-  <a href="Registrarse.html" class="w3-button w3-bar-item">Registrarse</a>
-  <a href="ingresar.html" class="w3-button w3-bar-item">Ingresar</a>
+  <a href="index.jsp" class="w3-button w3-bar-item">Inicio</a>
+  <a href="Registrarse.jsp" class="w3-button w3-bar-item">Registrarse</a>
+  <a href="ingresar.jsp" class="w3-button w3-bar-item">Ingresar</a>
   <a href="#contacto" class="w3-button w3-bar-item">Contacto</a>
 </nav>
 
@@ -186,7 +186,7 @@ input[type=submit]:hover {
 <p>Resize the browser window to see the responsive effect. When the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other.</p>
 
 <div class="container">
-  <form action="/action_page.php">
+  <form action="iniciar" method = "post" >
     <div class="row">
       <h2 style="text-align:center">Login with Social Media or Manually</h2>
       <div class="vl">
@@ -210,9 +210,9 @@ input[type=submit]:hover {
           <p>Or sign in manually:</p>
         </div>
 
-        <input type="text" name="username" placeholder="Username" required>
-        <input type="password" name="password" placeholder="Password" required>
-        <input type="submit" value="Login">
+        <input type="text" name="username"  placeholder="Username" required>
+        <input type="password" name="password"  placeholder="Password" required>
+        <input type="submit" value="Login" >
       </div>
       
     </div>
@@ -228,7 +228,7 @@ input[type=submit]:hover {
 <div class="bottom-container">
   <div class="row">
     <div class="col">
-      <a href="#" style="color:white" class="btn">Sign up</a>
+      <a href="Registrarse.jsp" style="color:white" class="btn">Sign up</a>
     </div>
     <div class="col">
       <a href="#" style="color:white" class="btn">Forgot password?</a>

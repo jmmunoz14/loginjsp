@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 * {box-sizing: border-box}
 body {
@@ -169,9 +170,9 @@ iframe {
 </head>
 <body>
 <nav class="w3-bar w3-black">
-  <a href="index.html" class="w3-button w3-bar-item">Inicio</a>
-  <a href="Registrarse.html" class="w3-button w3-bar-item">Registrarse</a>
-  <a href="ingresar.html" class="w3-button w3-bar-item">Ingresar</a>
+  <a href="index.jsp" class="w3-button w3-bar-item">Inicio</a>
+  <a href="Registrarse.jsp" class="w3-button w3-bar-item">Registrarse</a>
+  <a href="ingresar.jsp" class="w3-button w3-bar-item">Ingresar</a>
   <a href="#contacto" class="w3-button w3-bar-item">Contacto</a>
 </nav>
 
@@ -179,12 +180,12 @@ iframe {
 
 <section class="w3-container w3-center" >
   <h2 class="w3-wide" style= "color:white">Financial Coach</h2>
-  <p class="w3-opacity"style= "color:white"><i>Tu bolsillo, nuestra preocupaciÃ³n</i></p>
+  <p class="w3-opacity"style= "color:white"><i>Tu bolsillo, nuestra preocupación</i></p>
 </section>
 
 <section class="w3-container w3-center" >
  
-  <h1 class="w3-wide"style= "color:white"><i>Â¿ En que consiste Financial Coach ?</i></h1>
+  <h1 class="w3-wide"style= "color:white"><i>¿ En que consiste Financial Coach ?</i></h1>
 </section>
 <div>
 

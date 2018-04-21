@@ -1,3 +1,12 @@
+<%
+    HttpSession objsesion = request.getSession(false);
+    String usuario = (String) objsesion.getAttribute("usuario");
+    if(usuario.equals(""))
+    {
+        response.sendRedirect("index.jsp");
+    }
+%>
+
 <!DOCTYPE html>
 <html>
 <meta charset="UTF-8">
@@ -174,6 +183,7 @@ iframe {
   <a href="Registrarse.jsp" class="w3-button w3-bar-item">Registrarse</a>
   <a href="ingresar.jsp" class="w3-button w3-bar-item">Ingresar</a>
   <a href="#contacto" class="w3-button w3-bar-item">Contacto</a>
+  <% out.println("Bienvenido " + usuario);  %>
 </nav>
 
 

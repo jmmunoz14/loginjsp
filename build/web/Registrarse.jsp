@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-
+<script  src = "js/main.js"> </script>
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box}
@@ -114,27 +114,27 @@ button:hover {
 <body>
 
 <nav class="w3-bar w3-black">
-  <a href="index.html" class="w3-button w3-bar-item">Inicio</a>
-  <a href="Registrarse.html" class="w3-button w3-bar-item">Registrarse</a>
-  <a href="ingresar.html" class="w3-button w3-bar-item">Ingresar</a>
+  <a href="index.jsp" class="w3-button w3-bar-item">Inicio</a>
+  <a href="Registrarse.jsp" class="w3-button w3-bar-item">Registrarse</a>
+  <a href="ingresar.jsp" class="w3-button w3-bar-item">Ingresar</a>
   <a href="#contacto" class="w3-button w3-bar-item">Contacto</a>
 </nav>
 
 
-<form action="/action_page.php" style="border:1px solid #ccc">
+<form action="nuevousuario" method = "post" id="forminicio">
   <div class="container">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
 
     <label for="email" style= "color:white"><b>Email</b></label>
-    <input type="text" placeholder="Enter Email"  name="email"  required>
+    <input type="text" id="txtusuario" placeholder="Enter Email"   name="email"  required   >
 
     <label for="psw" style= "color:white"><b>Password </b> </label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" id="txtpassword1" placeholder="Enter Password"  name="psw" required>
 
     <label for="psw-repeat" style= "color:white"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+    <input type="password" id="txtpassword2" placeholder="Repeat Password"  name="psw-repeat" required>
     
     <label style= "color:white">
       <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px" > Remember me
@@ -144,7 +144,7 @@ button:hover {
 
     <div class="clearfix">
       <button type="button" class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+      <button type="submit" class="signupbtn" id="btniniciar">Sign Up</button>
     </div>
   </div>
 </form>
