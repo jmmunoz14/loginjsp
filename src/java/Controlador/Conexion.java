@@ -43,16 +43,12 @@ public class Conexion {
     {
         return con;
     }
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     
     public static void main(String[] args) {
         Conexion con = new Conexion();
         System.out.println("Controlador.Conexion.main()");
-    }
-=======
->>>>>>> parent of c0c16a9... nombre de los cambios?
-=======
->>>>>>> parent of c0c16a9... nombre de los cambios?
+
 }
 
+}
