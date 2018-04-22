@@ -123,7 +123,11 @@ button:hover {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <form action="nuevousuario" method = "post" >
+=======
+<form action="/action_page.php" style="border:1px solid #ccc">
+>>>>>>> parent of c0c16a9... nombre de los cambios?
 =======
 <form action="/action_page.php" style="border:1px solid #ccc">
 >>>>>>> parent of c0c16a9... nombre de los cambios?
