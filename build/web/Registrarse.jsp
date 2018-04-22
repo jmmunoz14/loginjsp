@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-<script  src = "js/main.js"> </script>
+
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box}
@@ -121,7 +121,7 @@ button:hover {
 </nav>
 
 
-<form action="nuevousuario" method = "post" id="forminicio">
+<form action="nuevousuario" method = "post" >
   <div class="container">
     <h1>Sign Up</h1>
     <p>Please fill in this form to create an account.</p>
