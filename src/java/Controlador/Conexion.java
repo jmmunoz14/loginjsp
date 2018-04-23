@@ -9,6 +9,7 @@ package Controlador;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
+import java.time.Clock;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -43,10 +44,27 @@ public class Conexion {
     {
         return con;
     }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
     
     public static void main(String[] args) {
         Conexion con = new Conexion();
+<<<<<<< HEAD
+        System.out.println(con + "algo");
         
+=======
+        System.out.println("Controlador.Conexion.main()");
+>>>>>>> 05fafd95f31ccd8c2c3c7c67947c847f9b93ffe5
     }
+=======
+>>>>>>> parent of c0c16a9... nombre de los cambios?
+=======
+>>>>>>> parent of c0c16a9... nombre de los cambios?
+=======
+>>>>>>> parent of c0c16a9... nombre de los cambios?
+=======
+>>>>>>> parent of c0c16a9... nombre de los cambios?
 }
 
