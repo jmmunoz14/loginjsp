@@ -52,8 +52,12 @@ public class Conexion {
     public static void main(String[] args) {
         Conexion con = new Conexion();
 <<<<<<< HEAD
+<<<<<<< HEAD
         System.out.println(con + "algo");
         
+=======
+        System.out.println("Controlador.Conexion.main()");
+>>>>>>> 05fafd95f31ccd8c2c3c7c67947c847f9b93ffe5
 =======
         System.out.println("Controlador.Conexion.main()");
 >>>>>>> 05fafd95f31ccd8c2c3c7c67947c847f9b93ffe5
